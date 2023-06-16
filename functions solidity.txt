@@ -1,0 +1,37 @@
+FUNCTIONS 
+
+Em Solidity, a linguagem de programação utilizada para desenvolver contratos inteligentes na plataforma Ethereum,
+ existem diversas funções disponíveis. Vou apresentar algumas das principais funções utilizadas em Solidity:
+
+Funções de Visibilidade:
+public: Essa função pode ser acessada de qualquer lugar, seja do contrato atual ou de outros contratos.
+private: Essa função só pode ser acessada internamente pelo contrato que a define.
+internal: Essa função só pode ser acessada internamente pelo contrato que a define e pelos contratos que herdam do contrato atual.
+external: Essa função só pode ser chamada a partir de contratos externos e não pode ser chamada internamente pelo contrato.
+
+Modificadores de Acesso:
+view: Indica que a função não altera o estado interno do contrato.
+pure: Indica que a função não altera o estado interno do contrato e também não lê nenhum dado do contrato.
+payable: Indica que a função pode receber Ether (a criptomoeda do Ethereum) junto com a chamada.
+
+Funções de Gerenciamento de Contrato:
+constructor: É uma função especial usada para inicializar o contrato no momento da sua criação.
+fallback: É uma função sem nome que é executada quando o contrato recebe uma chamada que não corresponde a nenhuma função existente.
+receive: É uma função sem nome que é executada quando o contrato recebe Ether sem dados.
+
+Funções de Acesso e Modificação de Dados:
+get: Função utilizada para retornar o valor de uma variável armazenada no contrato.
+set: Função utilizada para modificar o valor de uma variável armazenada no contrato.
+
+Funções de Controle de Fluxo:
+if: Utilizada para executar um bloco de código somente se uma determinada condição for verdadeira.
+for: Utilizada para criar um loop que é executado um número específico de vezes.
+while: Utilizada para criar um loop que é executado enquanto uma determinada condição for verdadeira.
+Essas são apenas algumas das funções disponíveis em Solidity. A linguagem também oferece suporte a estruturas de controle de fluxo adicionais, 
+manipulação de eventos, uso de arrays e muitas outras funcionalidades para desenvolver contratos inteligentes complexos.
+
+
+
+
+
+Regenerate response

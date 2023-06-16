@@ -1,0 +1,8 @@
+FUNÇÕES 
+
+	Como declarar uma função?
+Function +nome da função (parenteses para o caso de receber um parametro) +visibilidade + {}
+		ex: function Incrementa () external {}
+
+	Como retornar funções?
+*Não é possivel criar novas variaveis de estados dentro de funções 
