@@ -34,4 +34,3 @@ manipulação de eventos, uso de arrays e muitas outras funcionalidades para des
 
 
 
-Regenerate response
